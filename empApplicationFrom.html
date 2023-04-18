@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application From</title>
+    </head>
+    <body>
+        <h2> Application From</h2>
+        <form>
+<table>
+    <tbody>
+        <tr> 
+            <td> <label for="Full Name "> First Name : </label> </td>
+            <td> <input type="text" id="FullName" required maxlength="40"> </td>
+        </tr> 
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input type="email"id="Email required" placeholder="abc@gmail.com"</td>
+        </tr>
+        <tr>
+            <td> <label for="password"> Password: </label> </td>
+         <td> <input type="password" required aria-disabled> </td>
+        </tr>
+        
+        <tr>
+            <td> <label for="Contact Number"> Contact Number : </label> </td>
+               <td><input type="text" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" /></td> 
+              
+            
+            
+        </tr> 
+        <tr>
+            <td><label> Profile Photo :</label></td>
+            <td><input type="file" id="Profile Photo"></td>
+        </tr> 
+        <tr>
+            <td><label>Date of Birth:</label></td>
+            <td><input type="date" ></td>
+        </tr>
+        <tr>
+            <td> <label> Select Gender: </label> </td>
+            <td> 
+                <input type="radio" name="gender"> <label> Male </label>
+                <input type="radio" name="gender"> <label> Female</label>
+                <input type="radio" name="gender"> <label> Other </label>
+            </td>
+        </tr>
+        <tr>
+            <td> <label> Marital status :</label> </td>
+            <td> 
+                <input type="radio" name="Marital status"> <label> Yes </label>
+                <input type="radio" name="Marital status"> <label> No</label>
+                
+            </td>
+        </tr> 
+        <tr>
+            <td> <label> Know Tools & Technology:</label> </td>
+            <td> 
+                <input type="checkbox"> <label> Angular</label>
+                <input type="checkbox" > <label> React</label>
+                <input type="checkbox"> <label> Python</label>
+                <input type="checkbox"> <label>Java </label>
+                <input type="checkbox"> <label>Jenkin </label>
+                <input type="checkbox"> <label> Git</label>
+                <input type="checkbox"> <label> Database</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Designation">Designation:</label> </td>
+           <td>
+        <select name="Designation" id="Designation">
+              <option value="UI Developer">UI Developer</option>
+               <option value="Backend Developer">Backend Developer</option>
+               <option value="Full Stack Developer">Full Stack Developer</option>
+               <option value="DevOps Engineer">DevOps Engineer</option>
+            <option value="Teste">Teste</option>
+       </select>
+        </td> 
+
+    </tr>
+         <td> <label> Country :</label> </td>
+         <td> <input type="text" value="India" readonly>  </td>
+    </tr>
+
+        <tr>
+            <td> Address: </td>
+            <td> <textarea rows="7" cols="7"> </textarea> </td>
+        </tr>
+        <tr>
+            <td> <button type="submit"> Register </button> </td>
+            <td>  <button type="reset">Clear All</button>  </td>
+        </tr>
+    </tbody>
+</table>
+
+        </form>
+    </body>
