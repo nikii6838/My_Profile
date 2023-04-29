@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment</title>
+    <style>
+      * {
+        margin: 5px 15px;
+      }
+      section {
+        width: 25vw;
+        background: white;
+        height: 80vh;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+      }
+      .content {
+        background: skyblue;
+        margin: 16px;
+        border-radius: 15px;
+        padding: 10px;
+      }
+      h3 {
+        padding: 10px;
+      }
+      input {
+        border: 1px solid rgb(181, 175, 175);
+      }
+      p {
+        padding: 10px;
+      }
+      span {
+        color: red;
+      }
+      .form-control {
+        width: 90%;
+        border-radius: 5px;
+        background: gainsboro;
+        padding: 10px;
+      }
+      .reason {
+        width: 90%;
+        border-radius: 5px;
+        background: gainsboro;
+        padding: 10px;
+        height: 4vh;
+      }
+      .btn {
+        margin-top: 5px;
+        float: right;
+        background: gainsboro;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid gainsboro;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>Subscriber</h3>
+      <hr />
+      <div class="content">
+        <p>
+          We're sorry to see you go, but hey, no hard feelings, hopefully we
+          will see you back one day. <br />
+          Please fill in your email address in order to unsubscribe from the
+          list.
+          <br />You will receive an email to confirm your unsubscription, just
+          to make sure this is not an accident or somebody else tries to
+          unsubscribe you.
+        </p>
+      </div>
+      <div class="email-section">
+        <label for="email">Email <span>*</span></label>
+        <br />
+        <input type="email" class="form-control" />
+      </div>
+      <br />
+      <div class="subscription-reason">
+        <label for="reason">Unsubscribe Reason </label>
+        <br />
+        <input type="text" class="reason" placeholder="Unsubscribe Reason" />
+      </div>
+      <br />
+      <hr />
+      <div>
+        <button class="btn">Unsubscribe</button>
+      </div>
+    </section>
+  </body>
+</html>
